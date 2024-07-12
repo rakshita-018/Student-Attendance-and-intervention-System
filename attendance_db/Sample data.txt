@@ -1,0 +1,33 @@
+Sample Schools
+
+INSERT INTO schools (school_name, address) VALUES ('Greenwood High', '123 Main St');
+INSERT INTO schools (school_name, address) VALUES ('Riverdale Academy', '456 Elm St');
+
+
+Sample Teachers
+
+INSERT INTO teachers (first_name, last_name, subject, school_id) VALUES ('John', 'Doe', 'Mathematics', 1);
+INSERT INTO teachers (first_name, last_name, subject, school_id) VALUES ('Jane', 'Smith', 'Science', 2);
+
+
+Sample Students
+
+INSERT INTO students (first_name, last_name, date_of_birth, grade_level, school_id) VALUES ('Alice', 'Brown', '2010-05-10', '5', 1);
+INSERT INTO students (first_name, last_name, date_of_birth, grade_level, school_id) VALUES ('Bob', 'White', '2009-08-15', '6', 2);
+
+
+Sample Classes
+
+INSERT INTO classes (class_name, teacher_id, school_id) VALUES ('Math 101', 1, 1);
+INSERT INTO classes (class_name, teacher_id, school_id) VALUES ('Science 101', 2, 2);
+
+
+Sample Attendance
+
+INSERT INTO attendance (student_id, class_id, attendance_date, status) VALUES (1, 1, '2024-07-01', 'Present');
+INSERT INTO attendance (student_id, class_id, attendance_date, status) VALUES (2, 2, '2024-07-01', 'Absent');
+
+
+Sample Guardians
+INSERT INTO guardians (guardian_email, parent_type, student_id) VALUES ('parent1@example.com', 'Father', 1);
+INSERT INTO guardians (guardian_email, parent_type, student_id) VALUES ('parent2@example.com', 'Mother', 2);
