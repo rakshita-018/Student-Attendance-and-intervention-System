@@ -18,6 +18,7 @@
 <h2>Technologies Used</h2>
 <div>Backend:
 MySQL/PostgreSQL (Database)
+<br>
 Python
 </div>
 
